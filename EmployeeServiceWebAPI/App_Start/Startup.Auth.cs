@@ -61,8 +61,8 @@ namespace EmployeeServiceWebAPI
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
-                ClientId = "845737108941-vpisemqnjr5q22blkigaj32doup1st0t.apps.googleusercontent.com",
-                ClientSecret = "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"
+                ClientId = "CLIENT-ID",
+                ClientSecret = "API-KEY"
             });
         }
     }
